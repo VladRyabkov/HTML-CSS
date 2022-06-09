@@ -4,14 +4,14 @@
 }
 
 .header-content {
-    width: 70%;
+    width: 80%;
     margin-left: 15%;
     display: flex;
 }
 
 .header-logo {
-    height: 30px;
-    margin-top: 20px;
+    height: 25px;
+    margin-top: 23px;
 }
 
 .header-separator {
@@ -52,3 +52,22 @@ li:not(.header-menu-list-item-selected) a:hover {
     color: red;
 }
 
+.header-with-find {
+    background: #09f;
+    height: 40px;
+}
+
+.finder {
+    background: white;
+    height: 30px;
+    width: 35%;
+    position: relative; top: 5px;
+    margin-left: 15%;
+    border-radius: 5px;
+}
+
+.finder-icon {
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
