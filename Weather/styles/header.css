@@ -1,0 +1,54 @@
+.header {
+    background: white;
+    height: 80px;
+}
+
+.header-content {
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+}
+
+.header-logo {
+    height: 30px;
+    margin-top: 20px;
+}
+
+.header-separator {
+    background: #efefef;
+    height: 40px;
+    width: 2px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+ul {
+    margin-top: 28px;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: #0099fe;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-menu-list-item {
+    margin-left: 15px;
+}
+
+.header-menu-list-item-selected a {
+    color: black;
+    font-weight: bold;
+}
+
+li:not(.header-menu-list-item-selected) a:hover {
+    color: red;
+}
+
