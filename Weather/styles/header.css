@@ -59,15 +59,16 @@ li:not(.header-menu-list-item-selected) a:hover {
 
 .finder {
     background: white;
-    height: 30px;
+    height: 25px;
     width: 35%;
-    position: relative; top: 5px;
-    margin-left: 15%;
+    position: relative; top: px;
+    margin-left:15%;
     border-radius: 5px;
 }
 
 .finder-icon {
     height: 20px;
-    margin-left: 10px;
+    margin-left: px;
     margin-top: 5px;
 }
+
