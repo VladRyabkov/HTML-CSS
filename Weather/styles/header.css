@@ -59,16 +59,48 @@ li:not(.header-menu-list-item-selected) a:hover {
 
 .finder {
     background: white;
-    height: 25px;
+    height: 30px;
     width: 35%;
-    position: relative; top: px;
+    position: relative; top: 5px;
     margin-left:15%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .finder-icon {
     height: 20px;
     margin-left: px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
+.background{
+    background:white;
+    width: 50%;
+    height: 475px;
+    margin-left:15%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.world-map{
+    width: 100%;
+    height:375px;
+    border-radius: 10px 10px 0 0;
+}
+
+.weather-info-top{
+    background: white;
+    height: 46%;
+    width: 47%;
+    position: absolute; bottom :30%;
+    margin-left: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.weather-info-bottom{
+    background: #09f;
+        height: 6%;
+        width: 47%;
+        position: absolute; bottom :24%;
+        margin-left: 20px;
+        border-radius: 0 0 10px 10px;
+}
