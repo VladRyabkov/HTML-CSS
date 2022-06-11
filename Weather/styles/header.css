@@ -98,9 +98,17 @@ li:not(.header-menu-list-item-selected) a:hover {
 
 .weather-info-bottom{
     background: #09f;
-        height: 6%;
-        width: 47%;
-        position: absolute; bottom :24%;
-        margin-left: 20px;
-        border-radius: 0 0 10px 10px;
+    height: 6%;
+    width: 47%;
+    position: absolute; bottom :24%;
+    margin-left: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.info-separator{
+    background: #efefef;
+    height: 55%;
+    width: 1px;
+    margin-left: 40%;
+    position: relative; bottom : 70%;
 }
