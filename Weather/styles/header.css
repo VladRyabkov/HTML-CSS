@@ -1,12 +1,15 @@
 .header {
     background: white;
     height: 80px;
+
 }
 
 .header-content {
-    width: 80%;
-    margin-left: 15%;
-    display: flex;
+   width: 80%;
+   display: flex;
+   max-width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .header-logo {
@@ -52,63 +55,96 @@ li:not(.header-menu-list-item-selected) a:hover {
     color: red;
 }
 
+.second-header{
+     background: #09f;
+     height: 40px;
+}
+
 .header-with-find {
-    background: #09f;
-    height: 40px;
+    width: 80%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 .finder {
     background: white;
     height: 30px;
-    width: 35%;
+    width: 450px;
     position: relative; top: 5px;
-    margin-left:15%;
-    border-radius: 10px;
-}
 
-.finder-icon {
-    height: 20px;
-    margin-left: px;
-    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: none;
 }
 
 .background{
-    background:white;
-    width: 50%;
+    background:none;
+    width: 80%;
     height: 475px;
-    margin-left:15%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
     border-radius: 10px;
 }
 
 .world-map{
-    width: 100%;
-    height:375px;
+    width: 680px;
+    height:80%;
     border-radius: 10px 10px 0 0;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .weather-info-top{
     background: white;
-    height: 46%;
-    width: 47%;
-    position: absolute; bottom :30%;
+    height: 315px;
+    width: 640px;
+    position: relative; bottom :77%;
     margin-left: 20px;
     border-radius: 10px 10px 0 0;
 }
 
 .weather-info-bottom{
     background: #09f;
-    height: 6%;
-    width: 47%;
-    position: absolute; bottom :24%;
+    height: 40px;
+    width: 640px;
+    position: relative; bottom :78.7%;
     margin-left: 20px;
     border-radius: 0 0 10px 10px;
 }
 
 .info-separator{
-    background: #efefef;
+    background: #ccc;
     height: 55%;
     width: 1px;
     margin-left: 40%;
-    position: relative; bottom : 70%;
+    position: relative; bottom : 145%;
 }
+
+.today-item {
+    background: #09f;
+    height: 40px;
+    width: 13%;
+    position: relative; bottom: 142.1%;
+    margin-left: 20px;
+    border-radius: 0 0 0 10px;
+}
+
+.today-item:hover{
+    background:#75d2ff;
+}
+
+.today{
+    position: relative; top: 8px; left: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+
