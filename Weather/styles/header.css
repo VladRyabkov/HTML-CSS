@@ -71,12 +71,24 @@ li:not(.header-menu-list-item-selected) a:hover {
     background: white;
     height: 30px;
     width: 450px;
-    position: relative; top: 5px;
-
+    position: relative; top: 4px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
     border: none;
+}
+
+.placehold{
+
+}
+
+.button{
+    height:20px;
+    width:20px;
+    position:relative; top:9px; right:25px;
+    border: none;
+    background: url('https://cdn-icons-png.flaticon.com/512/149/149852.png') no-repeat;
+    background-size: cover;
 }
 
 .background{
@@ -128,7 +140,7 @@ li:not(.header-menu-list-item-selected) a:hover {
 .today-item {
     background: #09f;
     height: 40px;
-    width: 13%;
+    width: 91px;
     position: relative; bottom: 142.1%;
     margin-left: 20px;
     border-radius: 0 0 0 10px;
@@ -139,12 +151,132 @@ li:not(.header-menu-list-item-selected) a:hover {
 }
 
 .today{
-    position: relative; top: 8px; left: 20px;
+    position: relative; top: 20%; left: 25%;
     color: white;
+    text-decoration: none;
     font-size: 16px;
 }
 
+.tomorrow-item {
+    background: #09f;
+    height: 40px;
+    width: 91px;
+    position: relative; bottom: 150.55%;
+    margin-left: 111px;
+}
+
+.tomorrow-item:hover{
+    background:#75d2ff;
+}
+
+.tomorrow{
+    position: relative; top: 20%; left: 12%;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.three-days-item {
+    background: #09f;
+    height: 40px;
+    width: 91px;
+    position: relative; bottom: 158.95%;
+    margin-left: 202px;
+}
+
+.three-days-item:hover{
+    background:#75d2ff;
+}
+
+.three-days{
+    position: relative; top: 20%; left: 25%;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.ten-days-item {
+    background: #09f;
+    height: 40px;
+    width: 91px;
+    position: relative; bottom: 167.4%;
+    margin-left: 293px;
+}
+
+.ten-days-item:hover{
+    background:#75d2ff;
+}
+
+.ten-days{
+    position: relative; top: 20%; left: 18%;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.two-weeks-item {
+    background: #09f;
+    height: 40px;
+    width: 91px;
+    position: relative; bottom: 175.8%;
+    margin-left: 384px;
+}
+
+.two-weeks-item:hover{
+    background:#75d2ff;
+}
+
+.two-weeks{
+    position: relative; top: 20%; left: 15%;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.month-item {
+    background: #09f;
+    height: 40px;
+    width: 91px;
+    position: relative; bottom: 184.24%;
+    margin-left: 475px;
+}
+
+.month-item:hover{
+    background:#75d2ff;
+}
+
+.month{
+    position: relative; top: 20%; left: 25%;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.more{
+    background: #09f;
+    color: white;
+    height: 40px;
+    width: 94px;
+    position: relative; bottom: 192.64%;
+    margin-left: 566px;
+    border-radius: 0 0 10px 0 ;
+}
+.more:hover{
+    background:#75d2ff;
+    border-radius: 0 0 10px 0 ;
+}
+
+.sub-menu{
+   display: none;
+}
+
+.main-item{text-decoration: none;}
+.main-item:focus ~ .sub-menu,
+.main-item:active ~ .sub-menu,
 
 
+.sub-menu:hover{
+   display: block;
+}
 
 
