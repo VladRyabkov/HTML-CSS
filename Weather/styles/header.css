@@ -51,7 +51,7 @@ li a {
     font-weight: bold;
 }
 
-li:not(.header-menu-list-item-selected) a:hover {
+li:not(.header-menu-list-item-selected) a:hover{
     color: red;
 }
 
@@ -78,9 +78,6 @@ li:not(.header-menu-list-item-selected) a:hover {
     border: none;
 }
 
-.placehold{
-
-}
 
 .button{
     height:20px;
@@ -252,6 +249,7 @@ li:not(.header-menu-list-item-selected) a:hover {
     font-size: 16px;
 }
 
+
 .more{
     background: #09f;
     color: white;
@@ -261,22 +259,42 @@ li:not(.header-menu-list-item-selected) a:hover {
     margin-left: 566px;
     border-radius: 0 0 10px 0 ;
 }
+
+
 .more:hover{
     background:#75d2ff;
     border-radius: 0 0 10px 0 ;
 }
 
 .sub-menu{
-   display: none;
+    display: none;
+    height: 90px;
+    width: 120px;
+    position: relative; right: 25px; bottom: 9px;
+    border-radius: 0 10px 10px 10px;
+
 }
 
-.main-item{text-decoration: none;}
+.main-item{
+    position: relative; top: 20%; left: 20%;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
 .main-item:focus ~ .sub-menu,
 .main-item:active ~ .sub-menu,
 
 
 .sub-menu:hover{
+
    display: block;
 }
 
+.font-menu-color{
+    color:white;
+    margin-left: 8px;
+    font-weight: light;
+
+}
 
